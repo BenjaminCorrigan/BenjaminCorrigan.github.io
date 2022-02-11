@@ -1,0 +1,61 @@
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+
+.grid {
+    display: flex;
+    grid-template-columns: 6fr 4fr;
+    max-width: 1366px;
+    margin-left: 20px;
+    margin-right: auto;
+    column-gap: 20px;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    height: 100%;
+    color: #e6e8e6;
+    background-color: #191919;
+    flex-direction: column;
+    background-image: url(../images/blackmist.jpg);
+    min-height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h2 {
+    display: flex;
+
+}
+
+
+/* .navigation__items {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    line-height: 1.5em;
+    align-items: flex-end;
+} */
+
+
+
+.navigation {
+    color: orangered;
+    position: fixed;
+    padding: 20px;
+    border-radius: 20px;
+    top: 50%;
+    bottom: auto;
+    right: 20px;
+    
+}

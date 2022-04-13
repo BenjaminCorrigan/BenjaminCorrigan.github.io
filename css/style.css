@@ -56,7 +56,7 @@ header {
 
 }
 .main-content__title{
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 .about-title{
@@ -66,6 +66,9 @@ header {
     background-color: rgba(0, 0, 0, 0.575);
     border-radius: 20px;
     
+}
+.skills-main{
+    padding-left: 50px;
 }
 .skill-content{
    padding-right: 5em;

@@ -9,7 +9,17 @@
     text-align:center;
     line-height: 1.5em;
     justify-content: space-evenly;
-    text-decoration: none;
+    
+    font:xxlarge;
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+
+a{
+    color:white;
     
 }
 
@@ -41,6 +51,7 @@ header {
 .about-skills{
     display: flex;
     padding-top: 1em;
+    padding-bottom: 1em;
     flex-direction: row-reverse;
 
 }
@@ -64,6 +75,15 @@ header {
 p{
     padding: 15px;
 }
+.projects-main{
+    border: white;
+    border:solid;
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
 
 body {
     display: flex;
@@ -80,6 +100,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+.email{
+    padding: 0px;
+    margin: 0;
+}
+.github{
+    padding:0px;
+    padding-bottom: 20px;
+    margin:0px;
+}
+.linkedin{
+    padding: 0px;
+    margin: 0; 
 }
 
 
